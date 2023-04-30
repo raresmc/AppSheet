@@ -6,7 +6,7 @@ AND
 )
 
 
-Are updates allowed?
+¿Permitir actualizaciones?
 SWITCH(LOOKUP(USEREMAIL(), "Users", "UserEmail", "UserRole"), 
   "ADMIN", "ALL_CHANGES",
   "SALES", "UPDATES_ONLY",
